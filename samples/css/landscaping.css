@@ -25,7 +25,7 @@ section h2{font-size:44px;margin-bottom:14px}.lede{max-width:60ch;margin-bottom:
 .sticky{background:#ffe680;padding:22px;transform:rotate(2.5deg);font-size:17px;box-shadow:3px 5px 12px #0003;align-self:start}
 .ba{position:relative;height:420px;border:3px solid var(--ink);overflow:hidden;--p:50%}
 .ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.ba .before{filter:grayscale(.9) sepia(.5) brightness(.75);clip-path:inset(0 calc(100% - var(--p)) 0 0)}
+.ba .before{clip-path:inset(0 calc(100% - var(--p)) 0 0)}
 .ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize}
 .ba .bar{position:absolute;top:0;bottom:0;left:var(--p);width:4px;background:var(--orange)}
 .ba .lab{position:absolute;bottom:12px;font:500 13px "JetBrains Mono";background:var(--ink);color:var(--kraft);padding:4px 10px}
