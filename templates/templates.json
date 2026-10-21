@@ -3,30 +3,30 @@
     "name": "Greenline Yard Co.",
     "category": "trades",
     "folder": "greenline-yard-co",
-    "description": "Fresh green gradient hero, bold Archivo headings, top-bordered service cards, dark trust band and sticky call/text bar."
+    "description": "Fresh, outdoorsy and dependable. Suits landscapers, lawn care, fencing and other home-service pros."
   },
   {
     "name": "Ironbridge Auto Works",
     "category": "trades",
     "folder": "ironbridge-auto-works",
-    "description": "Dark slate-to-crimson hero, condensed Oswald type, amber accents and high-contrast cards built for quick call-to-book."
+    "description": "Bold, dark and no-nonsense. Suits auto repair shops, mechanics and other service businesses that want the phone to ring."
   },
   {
     "name": "Hearth & Bean Coffee",
     "category": "food",
     "folder": "hearth-and-bean",
-    "description": "Warm espresso-brown gradient, soft Fraunces serif headings on cream, cozy menu cards and an order-ahead button bar."
+    "description": "Warm, cozy and welcoming. Suits coffee shops, cafes, bakeries and small eateries."
   },
   {
     "name": "Velvet & Vine Salon",
     "category": "beauty",
     "folder": "velvet-and-vine-salon",
-    "description": "Rose-to-blush gradient hero, elegant Cormorant Garamond serif, champagne accents and a soft, editorial book-now flow."
+    "description": "Soft, elegant and polished. Suits hair salons, nail and beauty studios, spas and aestheticians."
   },
   {
     "name": "Northpeak Print Supply",
     "category": "retail",
     "folder": "northpeak-print-supply",
-    "description": "Indigo-to-violet gradient, DM Serif Display headings with teal accents, product-style cards and a clean quote-request layout."
+    "description": "Modern, colorful and confident. Suits retail shops, custom print and apparel makers, and boutiques."
   }
 ]
