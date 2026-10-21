@@ -54,3 +54,4 @@ footer small{display:block;margin-top:40px;padding-top:24px;border-top:1px solid
 .cred .w{flex-wrap:wrap;gap:8px 24px;padding:20px 24px}.w{padding:0 24px}section{padding:80px 0}
 .work{grid-template-columns:1fr;grid-template-rows:auto}.work figure:first-child{grid-row:auto}.work figure div{height:260px}
 .svc,.steps,.split,.quotes,.ownr,footer .cols{grid-template-columns:1fr}.ba{height:340px}.ownr .ph{max-width:200px}.towns{columns:1}}
+img{max-width:100%;height:auto}

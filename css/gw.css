@@ -1,0 +1,6 @@
+/* Gavin Whitaker portfolio chrome for sample sites and template previews (banner, back link, credits). */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Inter:wght@400;600&display=swap");
+.gw-note,.sample{font:500 13px/1.5 Inter,system-ui,sans-serif!important;letter-spacing:0!important;text-transform:none!important}
+.gw-note{background:#fff3a3;color:#3a2f00;text-align:center;padding:8px 12px}
+.gw-note a,.sample a{font-family:Fraunces,Georgia,serif!important;font-style:italic;font-weight:400;color:inherit!important;text-decoration:underline;text-underline-offset:3px}
+.gw-credit,.gw-credit a{font-family:Inter,system-ui,sans-serif!important}

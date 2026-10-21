@@ -33,3 +33,4 @@ details{border-top:1px solid var(--stone);padding:22px 0}details:last-child{bord
 footer{background:var(--esp);color:#a99d92;font-size:13px;border-top:1px solid #3d3430;padding:48px 0}footer .w{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}footer a{color:var(--champ)}footer small{display:block;width:100%;margin-top:28px;font-size:12px}
 @media(max-width:900px){.w{padding:0 24px}header .w{grid-template-columns:1fr auto}header nav{display:none}.wm{text-align:left;font-size:24px}
 .hero,.stylists,.mgrid,.visit{grid-template-columns:1fr;gap:40px}.hero{padding-top:48px;padding-bottom:80px}section{padding:88px 0}.gal{grid-template-columns:1fr 1fr;gap:14px}.portrait{max-width:280px}.stylists{gap:56px}}
+img{max-width:100%;height:auto}
