@@ -1,20 +1,16 @@
 # Photo credits
 
-All photos are free under the Unsplash License (https://unsplash.com/license). None are Unsplash+. They are stock images used on concept sites, not real clients.
+All photos are free under the Unsplash License (https://unsplash.com/license). None are Unsplash+. They are stock images used on fictional sample sites, not real clients or work.
 
-## landscaping
-- Dean Lewis: https://unsplash.com/photos/PE1lIWKOQRQ
-- Taylor Friehl: https://unsplash.com/photos/cdvYEiTNLEw
-- Alef Morais: https://unsplash.com/photos/RjxqFCXpt2c
+## Landscaping
+- Taylor Friehl: https://unsplash.com/photos/cdvYEiTNLEw (land-fence-600.jpg, hero)
+- Dean Lewis: https://unsplash.com/photos/PE1lIWKOQRQ (land-garden-*.jpg, before/after + portfolio card)
 
-## salon
-- Giorgio Trovato: https://unsplash.com/photos/u-jq0g_ZdZE
-- Sean Boyd: https://unsplash.com/photos/9Snkrx_UU6A
-- Kawê Rodrigues: https://unsplash.com/photos/HIeq4qMEBfM
+## Salon
+- Salah Regouane: https://unsplash.com/photos/MRCdF3qUbp0 (salon-cut-*.jpg, hero; replaces the neon-sign photo)
+- Kawê Rodrigues: https://unsplash.com/photos/HIeq4qMEBfM (salon-chair-600.jpg, gallery + portfolio card)
+- Sean Boyd: https://unsplash.com/photos/9Snkrx_UU6A (salon-lit-600.jpg, gallery)
 
-## bakery
-- Intrepid: https://unsplash.com/photos/1l2qWh-W5AU
-- Victoria Shes: https://unsplash.com/photos/IUk1S6n2s0o
-- Vicky Ng: https://unsplash.com/photos/yL9qjDDmmMU
-
-File map: land-garden=PE1lIWKOQRQ, land-fence=cdvYEiTNLEw, land-sprinkler=RjxqFCXpt2c, salon-main=u-jq0g_ZdZE, salon-lit=9Snkrx_UU6A, salon-chair=HIeq4qMEBfM, bake-rack=1l2qWh-W5AU, bake-sliced=IUk1S6n2s0o, bake-loaf=yL9qjDDmmMU
+## Bakery
+- Victoria Shes: https://unsplash.com/photos/IUk1S6n2s0o (bake-sliced-600.jpg)
+- Intrepid: https://unsplash.com/photos/1l2qWh-W5AU (bake-rack-600.jpg, portfolio card)
