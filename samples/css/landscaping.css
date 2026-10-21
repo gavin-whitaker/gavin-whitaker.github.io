@@ -45,7 +45,7 @@ table{width:100%;border-collapse:collapse}td{padding:18px 0;border-bottom:1px so
 blockquote p{font:500 26px/1.35 "Inter Tight";letter-spacing:-.01em;margin:12px 0 16px}blockquote cite{font-style:normal;font-size:14px;color:var(--ba)}
 .tag{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--sage);border:1px solid var(--sage);padding:3px 8px}
 .ownr{display:grid;grid-template-columns:200px 1fr;gap:40px;align-items:start;margin-top:40px}
-.ph{aspect-ratio:4/5;background:#e9e7e1;border:1px solid var(--hair);display:grid;place-items:center;font-size:13px;color:var(--sage)}
+.ph{aspect-ratio:4/5;width:100%;object-fit:cover;display:block}
 .band{background:var(--gr);color:#fff;padding:96px 0;border:0}.band .w{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap}.band h2{color:#fff;max-width:20ch}.band p{color:#b9bdc0;margin-top:8px}
 footer{background:var(--gr);color:#b9bdc0;font-size:14px;border-top:1px solid #33383c;padding:56px 0}
 footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px}footer b{color:#fff;font-weight:600;display:block;margin-bottom:6px}footer a{color:#e0b394}
