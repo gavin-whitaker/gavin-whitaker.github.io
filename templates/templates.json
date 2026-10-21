@@ -1,32 +1,32 @@
 [
   {
-    "name": "Greenline Yard Co.",
-    "category": "trades",
-    "folder": "greenline-yard-co",
-    "description": "Fresh, outdoorsy and dependable. Suits landscapers, lawn care, fencing and other home-service pros."
+    "name": "Hearth & Bean Coffee",
+    "category": "food",
+    "folder": "hearth-and-bean",
+    "description": "Calm, warm and grown-up, like a specialty caf\u00e9. Suits coffee shops, roasters, bakery-caf\u00e9s and breakfast spots."
   },
   {
     "name": "Ironbridge Auto Works",
     "category": "trades",
     "folder": "ironbridge-auto-works",
-    "description": "Bold, dark and no-nonsense. Suits auto repair shops, mechanics and other service businesses that want the phone to ring."
+    "description": "Clean, confident and trustworthy, like a top regional service center. Suits auto repair, tire and lube, diesel and collision shops."
   },
   {
-    "name": "Hearth & Bean Coffee",
-    "category": "food",
-    "folder": "hearth-and-bean",
-    "description": "Warm, cozy and welcoming. Suits coffee shops, cafes, bakeries and small eateries."
+    "name": "Greenline Yard Co.",
+    "category": "trades",
+    "folder": "greenline-yard-co",
+    "description": "Polished and architectural, like an established design-build firm, but friendly. Suits landscapers, lawn care, hardscape, irrigation and fencing companies."
   },
   {
     "name": "Velvet & Vine Salon",
     "category": "beauty",
     "folder": "velvet-and-vine-salon",
-    "description": "Soft, elegant and polished. Suits hair salons, nail and beauty studios, spas and aestheticians."
+    "description": "Quiet, elegant and editorial, like a high-end salon. Suits hair salons, blowout bars, nail and lash studios, spas and upscale barbers."
   },
   {
     "name": "Northpeak Print Supply",
     "category": "retail",
     "folder": "northpeak-print-supply",
-    "description": "Modern, colorful and confident. Suits retail shops, custom print and apparel makers, and boutiques."
+    "description": "Crisp, modern and organized, like a design studio rather than a discount printer. Suits print shops, screen printers, embroidery, sign and merch businesses."
   }
 ]

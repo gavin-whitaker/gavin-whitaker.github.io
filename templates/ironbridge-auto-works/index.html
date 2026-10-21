@@ -1,56 +1,43 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ironbridge Auto Works | Template</title>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#f3f4f6;--ink:#111827;--acc:#dc2626;--acc2:#f59e0b}
-*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;padding-bottom:76px}
-h1,h2,h3{font-family:'Oswald',Georgia,serif;line-height:1.15;margin:0 0 .5em}
-a{color:inherit}.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
-.mock{background:#111;color:#fff;font-size:12px;text-align:center;padding:6px}
-header{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.95);backdrop-filter:blur(6px);border-bottom:1px solid #0001}
-header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
-.logo{font-family:'Oswald',serif;font-weight:700;font-size:20px}
-.hcall{background:var(--acc);color:#fff;text-decoration:none;padding:9px 14px;border-radius:999px;font-weight:700;font-size:14px}
-.hero{background:linear-gradient(135deg,#0f172a 0%,#1e293b 60%,#7f1d1d 100%);color:#fff;padding:56px 0 64px;position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:#ffffff14}
-.badge{display:inline-block;background:#ffffff22;border:1px solid #ffffff44;padding:4px 12px;border-radius:999px;font-size:13px;margin-bottom:14px}
-.hero h1{font-size:clamp(32px,7vw,56px)}.hero p{font-size:18px;max-width:620px;opacity:.95}
-.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
-.btn{display:inline-block;padding:14px 20px;border-radius:12px;font-weight:700;text-decoration:none;background:#fff;color:var(--ink)}
-.btn.alt{background:transparent;border:2px solid #fff;color:#fff}
-section{padding:48px 0}h2{font-size:clamp(26px,5vw,38px)}
-.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
-.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 2px 14px #0000000d;border-top:4px solid var(--acc)}
-.card h3{font-size:20px}.card p{margin:0;font-size:15px;opacity:.85}
-.ic{width:42px;height:42px;border-radius:12px;background:var(--acc);color:#fff;display:grid;place-items:center;font-weight:700;margin-bottom:10px}
-.trust{background:var(--ink);color:#fff}.trust ul{list-style:none;padding:0;margin:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-.trust li{padding:14px 16px;border-radius:12px;background:#ffffff12;border-left:4px solid var(--acc2);font-weight:600}
-blockquote{margin:0 0 14px;background:#fff;padding:18px;border-radius:14px;box-shadow:0 2px 10px #0000000a;font-style:italic}
-cite{display:block;margin-top:8px;font-style:normal;font-weight:700;font-size:14px;color:var(--acc)}
-.ph{border:2px dashed #9ca3af;background:repeating-linear-gradient(45deg,#f3f4f6,#f3f4f6 10px,#e5e7eb 10px,#e5e7eb 20px);color:#4b5563;border-radius:14px;padding:28px 16px;text-align:center;font-weight:700;font-size:13px;letter-spacing:.04em}
-.two{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
-table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden}td{padding:10px 14px;border-bottom:1px solid #eee}
-.area{background:#fff;padding:16px;border-radius:14px;font-size:15px}
-.contact a{color:var(--acc);font-weight:700}
-footer{padding:28px 0;font-size:13px;opacity:.7;text-align:center}
-.sticky{position:fixed;left:0;right:0;bottom:0;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px;background:#fff;box-shadow:0 -4px 16px #0002;z-index:9}
-.sticky a{text-align:center;padding:14px;border-radius:12px;font-weight:700;text-decoration:none;background:var(--acc);color:#fff}.sticky a+a{background:var(--ink)}
-@media(min-width:900px){.sticky{display:none}body{padding-bottom:0}.hero{padding:96px 0}}
-.gal{display:grid;gap:10px;grid-template-columns:repeat(3,1fr)}.gal img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:14px;display:block}
-.revtop{display:flex;align-items:center;gap:14px;margin-bottom:14px}.rbadge{background:#fff;border-radius:14px;padding:12px 16px;box-shadow:0 2px 10px #0000000d;text-align:center}
-.rbadge b{display:block;font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.7}.stars{color:var(--acc2);font-size:20px;letter-spacing:2px}
-.rcard{background:#fff;border-radius:14px;padding:16px 18px;margin-bottom:10px;box-shadow:0 2px 10px #0000000a;border-left:4px solid var(--acc)}
-.rcard .stars{font-size:15px}.rcard p{margin:6px 0 0;font-size:14px;opacity:.6;font-style:italic}
-</style></head>
-<body><div class="gw-note" style="background:#fff3a3;color:#3a2f00;font:600 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 12px">Template preview, not a real business. <a href="https://gavin-whitaker.github.io/templates.html" style="color:#3b5bfd">← Back to Gavin Whitaker's portfolio</a></div>
-<div class="mock">Website template by Gavin Whitaker &middot; sample business, placeholder content</div>
-<header><div class="wrap"><div class="logo">Ironbridge Auto Works</div><a class="hcall" href="#contact">Call (555) 010-0000</a></div></header>
-<div class="hero"><div class="wrap"><span class="badge">Your Town · Service Area</span><h1>Honest repairs, done right</h1><p>Diagnostics, brakes, maintenance and more, with clear estimates before any work begins.</p>
-<div class="btns"><a class="btn" href="#contact">Get Started</a><a class="btn alt" href="#contact">Message us</a></div></div></div>
-<section><div class="wrap"><h2>What we do</h2><div class="grid"><div class="card"><div class="ic">D</div><h3>Diagnostics</h3><p>Find the problem fast.</p></div><div class="card"><div class="ic">B</div><h3>Brakes</h3><p>Pads, rotors and fluid.</p></div><div class="card"><div class="ic">O</div><h3>Oil &amp; Maintenance</h3><p>Keep it running smooth.</p></div><div class="card"><div class="ic">E</div><h3>Engine Repair</h3><p>From tune-ups to rebuilds.</p></div><div class="card"><div class="ic">S</div><h3>Suspension</h3><p>Smooth, safe handling.</p></div><div class="card"><div class="ic">A</div><h3>A/C &amp; Heating</h3><p>Comfort in every season.</p></div></div></div></section>
-<section class="trust"><div class="wrap"><h2>Why customers choose us</h2><ul><li>Upfront estimates</li><li>Warranty on parts &amp; labor</li><li>All makes &amp; models</li><li>Same-day service when possible</li></ul></div></section>
-<section><div class="wrap two"><div><h2>What customers say</h2><div class="revtop"><div class="rbadge"><b>Google rating</b><span class="stars">★★★★★</span></div><div>Your Google reviews here</div></div><div class="rcard"><span class="stars">★★★★★</span><p>Your customers’ reviews appear here</p></div><div class="rcard"><span class="stars">★★★★★</span><p>Your customers’ reviews appear here</p></div></div><div><h2>Gallery</h2><div class="gal"><img src="photo-1.jpg" alt="A neatly arranged set of automotive tools hanging on a workshop pegboard, emphasizing organization and efficiency" loading="lazy"><img src="photo-2.jpg" alt="Steel automobile disk brake without wheel for car service and repair concept" loading="lazy"><img src="photo-3.jpg" alt="Detailed view of car engine components with focus on parts and machinery" loading="lazy"></div></div></div></section>
-<section id="contact"><div class="wrap two contact"><div><h2>Visit or call</h2><p>123 Main Street, Your Town</p><p><a href="#contact">(555) 010-0000</a><br><a href="#contact">hello@example.com</a></p><p class="area">Service area: list the towns you serve here.</p></div><div><h2>Hours</h2><table><tr><td>Monday – Friday</td><td>9:00am – 5:00pm</td></tr><tr><td>Saturday</td><td>10:00am – 2:00pm</td></tr></table></div></div></section>
-<footer>&copy; Ironbridge Auto Works &middot; Sample template<br>Concept designed by Gavin Whitaker &middot; <a href="mailto:gavin.r.whitaker@gmail.com">gavin.r.whitaker@gmail.com</a> &middot; <a href="https://gavin-whitaker.github.io">Portfolio</a></footer>
-<div class="sticky"><a href="#contact">Call</a><a href="#contact">Message</a></div>
+<title>Ironbridge Auto Works | Template</title><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;-webkit-font-smoothing:antialiased}img{max-width:100%;display:block}a{color:inherit}
+.w{max-width:1240px;margin:0 auto;padding:0 32px}@media(max-width:700px){.w{padding:0 20px}}
+.g12{display:grid;grid-template-columns:repeat(12,1fr);gap:32px}@media(max-width:860px){.g12{grid-template-columns:1fr;gap:24px}.g12>*{grid-column:1/-1!important}}
+section{padding:112px 0}@media(max-width:700px){section{padding:64px 0}}
+.rv{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:860px){.rv{grid-template-columns:1fr}}
+.mcall{display:none}@media(max-width:700px){.mcall{display:block;position:fixed;left:12px;right:12px;bottom:12px;z-index:20;text-align:center;padding:15px;font-weight:600;text-decoration:none}body{padding-bottom:76px}}
+body{font-family:'IBM Plex Sans',sans-serif;background:#fff;color:#14171C;font-size:17px;line-height:1.6}
+h1,h2,h3{font-family:Barlow,sans-serif;font-weight:600;line-height:1.1;margin:0 0 16px;letter-spacing:-.01em}h2{font-size:clamp(30px,3.6vw,44px)}
+.eyb{font-family:Barlow;font-weight:600;text-transform:uppercase;letter-spacing:.12em;font-size:13px;color:#1E5EFF;margin:0 0 10px}
+.util{background:#14171C;color:#c9ced6;font-size:14px}.util .w{display:flex;gap:28px;justify-content:flex-end;padding-top:9px;padding-bottom:9px}
+nav{background:#fff;border-bottom:1px solid #e1e5ea;position:sticky;top:0;z-index:10}nav .w{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{font-family:Barlow;font-weight:700;font-size:22px;letter-spacing:.02em}.links{display:flex;gap:32px;font-size:15px}.links a{text-decoration:none}
+.btn{display:inline-block;background:#1E5EFF;color:#fff;text-decoration:none;padding:14px 24px;border-radius:4px;font-weight:600;font-size:15px;border:1px solid #1E5EFF}.btn.o{background:#fff;color:#14171C;border-color:#c9ced6}
+.hero{background:#F2F4F6}.hero .g12{align-items:center}.hero .t{padding:96px 0}.hero h1{font-size:clamp(42px,5vw,64px)}.hero p{font-size:19px;color:#5B6470;max-width:44ch}
+.hero img{width:100%;height:560px;object-fit:cover;border-radius:4px}.hero .b{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.trust{border-bottom:1px solid #e1e5ea}.trust .w{display:grid;grid-template-columns:repeat(3,1fr);padding-top:28px;padding-bottom:28px;gap:24px}.trust b{display:block;font-family:Barlow;font-size:20px}.trust span{color:#5B6470;font-size:15px}
+@media(max-width:700px){.trust .w{grid-template-columns:1fr}.hero img{height:300px}.hero .t{padding:56px 0 0}.util{display:none}}
+.svc{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #e1e5ea;border-left:1px solid #e1e5ea;margin-top:48px}@media(max-width:860px){.svc{grid-template-columns:1fr}}
+.svc div{padding:32px;border-right:1px solid #e1e5ea;border-bottom:1px solid #e1e5ea}.svc h3{font-size:24px;margin:0 0 6px}.svc p{color:#5B6470;margin:0 0 20px;font-size:16px}.svc .pr{font-family:'IBM Plex Mono',monospace;font-size:15px}
+.steps{background:#F2F4F6}.st3{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:48px}@media(max-width:860px){.st3{grid-template-columns:1fr}}.st3 .n{font-family:Barlow;font-weight:600;color:#1E5EFF;font-size:15px;border-top:2px solid #1E5EFF;padding-top:16px;display:block;margin-bottom:8px}
+.war{position:relative;background:#14171C url(bg.jpg) center/cover;color:#fff}.war:before{content:"";position:absolute;inset:0;background:#14171Ce6}.war .w{position:relative}.war p{color:#c9ced6;max-width:58ch;font-size:18px}
+.rhead{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;margin-bottom:40px}.rb{display:flex;gap:14px;align-items:center;border:1px solid #e1e5ea;border-radius:4px;padding:14px 20px}.rb b{font-family:Barlow;font-size:40px}.rb small{color:#5B6470}
+.st{color:#F2A900;letter-spacing:3px}.rc{border:1px solid #e1e5ea;border-radius:4px;padding:28px}.rc p{color:#5B6470;margin:12px 0}.rc span{font-size:13px;color:#5B6470}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}.gal img{height:280px;width:100%;object-fit:cover;border-radius:4px}@media(max-width:700px){.gal{grid-template-columns:1fr}.gal img{height:220px}}
+details{border-bottom:1px solid #e1e5ea;padding:20px 0}summary{font-family:Barlow;font-weight:600;font-size:20px;cursor:pointer}details p{color:#5B6470}
+.map{background:#e6e9ed;min-height:340px;border-radius:4px;display:grid;place-items:center;color:#5B6470;font-size:14px}
+footer{background:#14171C;color:#8a929c;font-size:14px;padding:48px 0}footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:20px}.mcall{background:#1E5EFF;color:#fff;border-radius:4px}@media(max-width:860px){.links{display:none}}</style></head><body><div class="gw-note" style="background:#fff3a3;color:#3a2f00;font:600 13px/1.4 system-ui,sans-serif;text-align:center;padding:8px 12px">Template preview, not a real business. <a href="https://gavin-whitaker.github.io/templates.html" style="color:#3b5bfd">← Back to Gavin Whitaker's portfolio</a></div>
+
+<div class="util"><div class="w"><span>☎ (555) 010-0188</span><span>Mon–Fri [7:30–6:00] · Sat [8:00–2:00]</span><span>[Street], [Town]</span></div></div>
+<nav><div class="w"><div class="logo">IRONBRIDGE AUTO</div><div class="links"><a href="#services">Services</a><a href="#how">How it works</a><a href="#faq">FAQ</a><a href="#visit">Location</a></div><a class="btn" href="#visit">Schedule service</a></div></nav>
+<header class="hero"><div class="w g12"><div class="t" style="grid-column:1/6"><p class="eyb">Independent repair · [Town]</p><h1>Straight answers and honest repairs.</h1><p>Oil change from [$59]. Most are done in about [30] minutes, and we call before any work you haven’t approved.</p><div class="b"><a class="btn" href="#visit">Schedule service</a><a class="btn o" href="tel:5550100188">Call (555) 010-0188</a></div></div><div style="grid-column:7/13"><img src="hero.jpg" alt="Clean repair bay"></div></div></header>
+<div class="trust"><div class="w"><div><b>[24-month] warranty</b><span>Parts and labor, in writing</span></div><div><b>[ASE-certified] technicians</b><span>All makes and models</span></div><div><b>[Years] in [Town]</b><span>Locally owned and operated</span></div></div></div>
+<section id="services"><div class="w"><div class="g12"><div style="grid-column:1/8"><p class="eyb">Services</p><h2>Common services, with starting prices.</h2></div></div><div class="svc"><div><h3>Oil change</h3><p>Synthetic and conventional, filter and top-off.</p><span class="pr">from [$59]</span></div><div><h3>Brakes</h3><p>Pads, rotors, fluid and a written inspection.</p><span class="pr">from [$149]</span></div><div><h3>Diagnostics</h3><p>Check-engine scan with a plain-language report.</p><span class="pr">from [$89]</span></div><div><h3>Tires &amp; alignment</h3><p>Mount, balance, rotate and align.</p><span class="pr">from [$25]</span></div><div><h3>A/C &amp; heating</h3><p>Recharge, leak test and repair.</p><span class="pr">from [$119]</span></div><div><h3>Suspension</h3><p>Shocks, struts and steering.</p><span class="pr">from [$199]</span></div></div></div></section>
+<section id="how" class="steps"><div class="w"><p class="eyb">How a visit works</p><h2>Getting started is easy.</h2><div class="st3"><div><span class="n">01 · Book</span><h3>Pick a time</h3><p>Schedule online or call. Same-day slots when available.</p></div><div><span class="n">02 · Inspect</span><h3>Get a written quote</h3><p>We inspect, explain what we found and quote before work begins.</p></div><div><span class="n">03 · Drive</span><h3>Pick up with confidence</h3><p>Every repair is backed by our written warranty.</p></div></div></div></section>
+<section class="war"><div class="w g12"><div style="grid-column:1/8"><p class="eyb" style="color:#8fb0ff">Our guarantee</p><h2>If it isn’t fixed right, we fix it again at no charge.</h2><p>Repairs are covered for [24 months / 24,000 miles], parts and labor, whichever comes first.</p><a class="btn" href="#visit">Schedule service</a></div></div></section>
+<section><div class="w"><p class="eyb">Inside the shop</p><h2>Clean bays, current equipment.</h2><div class="gal"><img src="photo-1.jpg" alt="Organized tool wall"><img src="photo-2.jpg" alt="Disc brake"><img src="photo-3.jpg" alt="Engine bay"></div></div></section>
+<section class="revs "><div class="w"><div class="rhead"><div><p class="eyb">Reviews</p><h2>Your Google reviews here</h2></div><div class="rb"><b>[4.9]</b><div><div class="st">★★★★★</div><small>Google rating · [000] reviews</small></div></div></div><div class="rv"><div class="rc"><div class="st">★★★★★</div><p>Your customers’ reviews appear here</p><span>[Customer name] · Google</span></div><div class="rc"><div class="st">★★★★★</div><p>Your customers’ reviews appear here</p><span>[Customer name] · Google</span></div><div class="rc"><div class="st">★★★★★</div><p>Your customers’ reviews appear here</p><span>[Customer name] · Google</span></div></div></div></section>
+<section id="faq" style="background:#F2F4F6"><div class="w g12"><div style="grid-column:1/5"><p class="eyb">FAQ</p><h2>Before you come in.</h2></div><div style="grid-column:6/13"><details><summary>Do I need an appointment?</summary><p>Appointments are recommended, and we take walk-ins when a bay is open.</p></details><details><summary>Will you call before doing extra work?</summary><p>Yes. We call with a quote before any work beyond what you approved.</p></details><details><summary>What warranty do you offer?</summary><p>Repairs are covered for [24 months / 24,000 miles], parts and labor.</p></details><details><summary>Can I wait at the shop?</summary><p>Yes. Most oil changes take about [30] minutes.</p></details></div></div></section>
+<section id="visit"><div class="w g12"><div style="grid-column:1/6"><p class="eyb">Visit</p><h2>[Street], [Town]</h2><p>Near [Landmark].<br>Mon–Fri [7:30 am – 6:00 pm] · Sat [8:00 am – 2:00 pm]<br>(555) 010-0188 · service@example.com</p><a class="btn" href="tel:5550100188">Call to schedule</a></div><div class="map" style="grid-column:7/13">[map: Street, Town]</div></div></section>
+<footer><div class="w"><span>© Ironbridge Auto Works · Sample template</span><span>Concept designed by Gavin Whitaker &middot; <a href="mailto:gavin.r.whitaker@gmail.com">gavin.r.whitaker@gmail.com</a> &middot; <a href="https://gavin-whitaker.github.io">Portfolio</a></span></div></footer><a class="mcall" href="tel:5550100188">Call (555) 010-0188</a>
 </body></html>
