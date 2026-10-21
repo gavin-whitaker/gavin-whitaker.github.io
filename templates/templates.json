@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Greenline Yard Co.",
+    "category": "trades",
+    "folder": "greenline-yard-co",
+    "description": "Fresh green gradient hero, bold Archivo headings, top-bordered service cards, dark trust band and sticky call/text bar."
+  },
+  {
+    "name": "Ironbridge Auto Works",
+    "category": "trades",
+    "folder": "ironbridge-auto-works",
+    "description": "Dark slate-to-crimson hero, condensed Oswald type, amber accents and high-contrast cards built for quick call-to-book."
+  },
+  {
+    "name": "Hearth & Bean Coffee",
+    "category": "food",
+    "folder": "hearth-and-bean",
+    "description": "Warm espresso-brown gradient, soft Fraunces serif headings on cream, cozy menu cards and an order-ahead button bar."
+  },
+  {
+    "name": "Velvet & Vine Salon",
+    "category": "beauty",
+    "folder": "velvet-and-vine-salon",
+    "description": "Rose-to-blush gradient hero, elegant Cormorant Garamond serif, champagne accents and a soft, editorial book-now flow."
+  },
+  {
+    "name": "Northpeak Print Supply",
+    "category": "retail",
+    "folder": "northpeak-print-supply",
+    "description": "Indigo-to-violet gradient, DM Serif Display headings with teal accents, product-style cards and a clean quote-request layout."
+  }
+]
